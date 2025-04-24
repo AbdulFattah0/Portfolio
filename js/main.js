@@ -1,19 +1,4 @@
-/*
-===============================
-Table of Contents
-===============================
-1. Variables & Selectors
-2. Event Listeners
-3. Header & Navigation
-4. Typing Animation
-5. Scroll Animations
-6. Project Filtering
-7. Testimonial Slider
-8. Form Validation
-9. Back to Top Button
-10. Utility Functions
-===============================
-*/
+
 
 // ===== 1. Variables & Selectors =====
 // Header elements
@@ -262,8 +247,6 @@ filterBtns.forEach(btn => {
     });
 });
 
-// ===== 7. Removed Testimonial Slider Section =====
-// Testimonial functionality removed as per client request
 
 // ===== 8. Form Validation =====
 // Contact form validation
@@ -291,8 +274,7 @@ if (contactForm) {
             return false;
         }
         
-        // If validation passes, the form will submit to Formspree
-        // No need to show success message as Formspree will handle that
+        
     });
 }
 
