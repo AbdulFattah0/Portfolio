@@ -311,12 +311,21 @@ section {
 } 
 
 /* ===== 6. About Section ===== */
-.about-content {
+/*.about-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 50px;
     align-items: center;
+}*/
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column; /* Stack the content vertically */
+  padding: 20px;
 }
+
 
 .profile-img {
     border-radius: 20px;
